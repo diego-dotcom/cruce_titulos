@@ -5,9 +5,7 @@ import pandas as pd
 import credenciales
 
 
-hb = HomeBroker(
-    # Broker ByMA id
-    81)
+hb = HomeBroker(credenciales.broker)
 
 # Authenticate with the homebroker platform
 hb.auth.login(dni=credenciales.dni, user=credenciales.user,

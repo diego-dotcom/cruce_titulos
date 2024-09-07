@@ -1,0 +1,3 @@
+pyhomebroker==0.55
+pandas==2.1.2
+matplotlib==3.8.2
